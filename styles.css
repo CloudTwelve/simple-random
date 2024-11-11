@@ -1,0 +1,45 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    min-height: 100%;
+    background-color: dimgray;
+    color: aliceblue;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    margin-bottom: 10px;
+    min-height: 15vh;
+    min-width: 100%;
+    position: sticky;
+    background-color: black;
+}
+
+title, strong {
+    color: aquamarine;
+}
+
+h1 {
+  margin: 5px;
+  text-align: center;
+}
+
+button {
+  margin: 2% 50% 2% 50%;
+  border-radius: 3px;
+  color: aliceblue;
+  background-color: black;
+}
+
+.main {
+  margin: 10px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  display: block;
+  background-color: gray;
+  border-radius: 20px;
+}
+
